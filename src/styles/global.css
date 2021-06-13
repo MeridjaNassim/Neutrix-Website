@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+ 
+    html,body {
+        width: 100%;
+        height: 100%;
+        overflow-x : hidden;
+        scroll-behavior : smooth;
+    }
+    body{
+        background-image: linear-gradient(to right top, #f9c831, #facc43, #fad053, #fbd461, #fbd86f);
+        background-repeat : no-repeat;
+        background-attachment: fixed;
+    }
+}
